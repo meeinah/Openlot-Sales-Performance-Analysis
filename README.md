@@ -60,7 +60,8 @@ The company's main database consists of six tables, with a total row count of ~1
 - Null checks completed for critical fields (`total_price, quantity, unit_price, time_key`).  
 - Small number of refunds/dates cleaned or excluded.  
 
-📌 *Entity Relationship Diagram available here.*  
+  <img width="1132" height="556" alt="entity rel openlot" src="https://github.com/user-attachments/assets/98cec2ac-a74b-4b35-b794-84ec31e6b449" />
+
 
 ---
 
@@ -68,6 +69,8 @@ The company's main database consists of six tables, with a total row count of ~1
 
 ### Overview of Findings  
 Overall sales and volume have been stable across months with steady revenue growth driven by price/volume mix rather than new customer acquisition. Total reported revenue stands at $105M, total quantity 6M units, and total customers 9.2K. A small set of products, customers, suppliers and regions account for a disproportionate share of revenue and units — prioritizing these high-performing segments will deliver the greatest near-term lift.
+
+<img width="1030" height="509" alt="dash" src="https://github.com/user-attachments/assets/75a2e0b1-4bae-42e6-8d82-bb3f457a7a18" />
 
 
 ---
@@ -81,7 +84,8 @@ Overall sales and volume have been stable across months with steady revenue grow
 - The **average unit price** held steady at **$18** across all years, reflecting a consistent pricing strategy that supported stability without heavy reliance on price changes.  
 - Most of the revenue is concentrated in **specific customers, products, and regions**, highlighting dependency on top performers.  
 
----
+![kpi tracking (3)](https://github.com/user-attachments/assets/c8e556f7-36fd-44a0-9f07-dd944008f623)
+
 
 ### Product Performance
 - Units measured in **Ct (39.4%)** and **Cans (21.6%)** dominated sales, accounting for over **60% of all units sold**.  
@@ -89,7 +93,8 @@ Overall sales and volume have been stable across months with steady revenue grow
 - A few **SKUs consistently drove the majority of revenue** each year, showing limited product diversification and dependence on category leaders.  
 - Category performance remained steady across the years without significant shifts in consumer demand, indicating **predictable supply chain trends**.  
 
----
+![kpi tracking (2)](https://github.com/user-attachments/assets/5b8a2059-81f6-4c98-9533-a1dcf2c7d1c2)
+
 
 ### Customer Insights
 - **Customer Pooja** consistently purchased nearly **double the units** of the second-highest customer, making her the **most valuable customer** over the full period.  
@@ -97,7 +102,8 @@ Overall sales and volume have been stable across months with steady revenue grow
 - **Card payments** dominated at **89.7%**, while **mobile and cash payments** made up a minimal share, showing heavy reliance on card channels.  
 - Minimal adoption of alternative payment methods indicates an opportunity to **incentivize mobile wallet use** to diversify payments.  
 
----
+![kpi tracking](https://github.com/user-attachments/assets/c2961bfe-bebb-42bd-ac83-6e7e3d1e44be)
+
 
 ### Regional & Supply Chain Performance
 - **Bangladesh and India** contributed more than **25% of global sales revenue**, making them the top-performing countries.  
@@ -105,31 +111,32 @@ Overall sales and volume have been stable across months with steady revenue grow
 - **DENIMACH LTD, Indo Count, and Friedola 1888** remained the **top three suppliers** across the period, dominating supply volumes.  
 - Revenue concentration in a **handful of regions and suppliers** created both opportunities and risks — any disruption could significantly affect total revenue.  
 
+![kpi tracking (1)](https://github.com/user-attachments/assets/ccee78fe-f68e-4732-b116-397a43e6d771)
+
 
 ---
 
 ## Recommendations  
 
-### Product Strategy  
+#### Product Strategy  
 - Continue prioritizing high-volume units (**Ct and Cans**) and high-revenue categories (**Beverage – Energy/Protein, Food – Healthy**).  
 - Explore opportunities to refresh or bundle underperforming products to balance category performance.  
 
-### Customer Engagement  
+#### Customer Engagement  
 - Strengthen loyalty programs for top customers like **Pooja**, focusing on personalized offers and retention.  
 - Invest in customer acquisition strategies to complement revenue growth, since YoY customer growth is flat.  
 
-### Regional Expansion  
+#### Regional Expansion  
 - Allocate more resources to **Dhaka, Chittagong, Bangladesh, and India**, given their dominant contribution to sales.  
 - Explore growth opportunities in underperforming regions to reduce overreliance on a few markets.  
 
-### Payments & Financial Strategy  
+#### Payments & Financial Strategy  
 - Encourage **mobile wallet adoption** through promotions and partnerships to reduce dependency on card payments.  
 - Monitor payment trends to align financial operations with evolving consumer behaviors.  
 
-### Supply Chain Management  
+#### Supply Chain Management  
 - Strengthen partnerships with dominant suppliers (**DENIMACH LTD, Indo Count, Friedola 1888**) to secure consistent inventory.  
 - Diversify supplier base slightly to mitigate risks of over-dependence.
-- 
 
 ---
 
