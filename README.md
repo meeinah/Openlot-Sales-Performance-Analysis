@@ -67,77 +67,76 @@ The company's main database consists of six tables, with a total row count of ~1
 ## Executive Summary  
 
 ### Overview of Findings  
-Overall sales and volume have been stable across months with steady revenue growth driven by price/volume mix rather than new customer acquisition.  
-- **Total Revenue:** $105M  
-- **Total Quantity:** 6M units  
-- **Total Customers:** 9.2K  
+Overall sales and volume have been stable across months with steady revenue growth driven by price/volume mix rather than new customer acquisition. Total reported revenue stands at $105M, total quantity 6M units, and total customers 9.2K. A small set of products, customers, suppliers and regions account for a disproportionate share of revenue and units — prioritizing these high-performing segments will deliver the greatest near-term lift.
 
-A small set of products, customers, suppliers, and regions account for a disproportionate share of revenue and units — prioritizing these high-performing segments will deliver the greatest near-term lift.  
 
 ---
 
-## Insights Deep Dive  
+## Insights Deep Dive
 
-### Overall Performance  
-- Revenue reached **$105M**, quantity **6M**, and customers **9.2K** (2014–2021).  
-- Month-to-month performance remained stable with dips in **February** and peaks in **May**.  
-- **YoY growth:** Revenue & quantity up **16.12%**, customers flat at **0%** → growth driven by existing customers.  
-- **Average Unit Price:** Steady at **$18**, showing a stable pricing strategy.  
-
----
-
-### Product Performance  
-- **Top Units:** Ct (**39.4%**) and Cans (**21.6%**) accounted for >60% of all units sold.  
-- **Top Categories:** Beverage – Energy/Protein and Food – Healthy contributed ~20% of total revenue.  
-- Few SKUs consistently dominated revenue → dependence on category leaders.  
-- Consumer demand stable across years → predictable trends for supply chain.  
+### Overall Performance
+- **Total revenue** reached **$105M**, **total quantity** 6M, and **total customers** 9.2K.  
+- Month-to-month performance between **2014 and 2021** remained stable, with minor dips in **February** and peaks in **May**, indicating consistent seasonal patterns.  
+- **Revenue and quantity** increased by **16.12% YoY**, but **customer growth** remained flat at 0%, showing that growth was driven by **existing customers** and **higher sales per customer** rather than acquisition.  
+- The **average unit price** held steady at **$18** across all years, reflecting a consistent pricing strategy that supported stability without heavy reliance on price changes.  
+- Most of the revenue is concentrated in **specific customers, products, and regions**, highlighting dependency on top performers.  
 
 ---
 
-### Customer Insights  
-- **Top Customer:** Pooja consistently purchased nearly double the units of the 2nd-highest customer.  
-- **Customer Growth:** Stagnant at ~9.2K (2014–2021). Retention > acquisition.  
-- **Payments:** Card = **89.7%** of transactions; mobile & cash minimal.  
-- Opportunity: Incentivize **mobile wallets** to diversify adoption.  
+### Product Performance
+- Units measured in **Ct (39.4%)** and **Cans (21.6%)** dominated sales, accounting for over **60% of all units sold**.  
+- **Beverage – Energy/Protein** and **Food – Healthy** categories contributed nearly **20% of total revenue**, making them essential to profitability and branding.  
+- A few **SKUs consistently drove the majority of revenue** each year, showing limited product diversification and dependence on category leaders.  
+- Category performance remained steady across the years without significant shifts in consumer demand, indicating **predictable supply chain trends**.  
 
 ---
 
-### Regional & Supply Chain Performance  
-- **Top Countries:** Bangladesh & India contributed >25% of global revenue.  
-- **Domestic Leaders:** Dhaka (**38.7%**) and Chittagong (**18.8%**) dominated division sales.  
-- **Top Suppliers:** DENIMACH LTD, Indo Count, Friedola 1888 led across all years.  
-- Revenue concentration in few regions & suppliers → both opportunity and risk.  
+### Customer Insights
+- **Customer Pooja** consistently purchased nearly **double the units** of the second-highest customer, making her the **most valuable customer** over the full period.  
+- Despite revenue growth, **customer count stagnated** at ~9.2K across 2014–2021, meaning **retention and cross-sell** strategies were more effective than acquisition.  
+- **Card payments** dominated at **89.7%**, while **mobile and cash payments** made up a minimal share, showing heavy reliance on card channels.  
+- Minimal adoption of alternative payment methods indicates an opportunity to **incentivize mobile wallet use** to diversify payments.  
+
+---
+
+### Regional & Supply Chain Performance
+- **Bangladesh and India** contributed more than **25% of global sales revenue**, making them the top-performing countries.  
+- Domestically, **Dhaka (38.7%)** and **Chittagong (18.8%)** consistently led sales, together accounting for **over half of division-level performance**.  
+- **DENIMACH LTD, Indo Count, and Friedola 1888** remained the **top three suppliers** across the period, dominating supply volumes.  
+- Revenue concentration in a **handful of regions and suppliers** created both opportunities and risks — any disruption could significantly affect total revenue.  
+
 
 ---
 
 ## Recommendations  
 
-**Product Strategy**  
-- Continue prioritizing **Ct and Cans**, and high-revenue categories.  
-- Refresh/bundle underperforming products to balance category performance.  
+### Product Strategy  
+- Continue prioritizing high-volume units (**Ct and Cans**) and high-revenue categories (**Beverage – Energy/Protein, Food – Healthy**).  
+- Explore opportunities to refresh or bundle underperforming products to balance category performance.  
 
-**Customer Engagement**  
-- Strengthen loyalty programs for top customers (e.g., Pooja).  
-- Invest in **customer acquisition** to complement revenue growth.  
+### Customer Engagement  
+- Strengthen loyalty programs for top customers like **Pooja**, focusing on personalized offers and retention.  
+- Invest in customer acquisition strategies to complement revenue growth, since YoY customer growth is flat.  
 
-**Regional Expansion**  
-- Prioritize Dhaka, Chittagong, Bangladesh, India.  
-- Explore growth in underperforming markets.  
+### Regional Expansion  
+- Allocate more resources to **Dhaka, Chittagong, Bangladesh, and India**, given their dominant contribution to sales.  
+- Explore growth opportunities in underperforming regions to reduce overreliance on a few markets.  
 
-**Payments & Finance**  
-- Promote **mobile wallets** via discounts/partnerships.  
-- Track evolving consumer payment preferences.  
+### Payments & Financial Strategy  
+- Encourage **mobile wallet adoption** through promotions and partnerships to reduce dependency on card payments.  
+- Monitor payment trends to align financial operations with evolving consumer behaviors.  
 
-**Supply Chain Management**  
-- Strengthen partnerships with top suppliers.  
-- Diversify supplier base to reduce over-dependence.  
+### Supply Chain Management  
+- Strengthen partnerships with dominant suppliers (**DENIMACH LTD, Indo Count, Friedola 1888**) to secure consistent inventory.  
+- Diversify supplier base slightly to mitigate risks of over-dependence.
+- 
 
 ---
 
 ## Assumptions & Caveats  
 - **Date coverage:** Analysis includes **2014–2021** only.  
 - **Missing/messy data:** Refunds & non-sensical dates excluded. Missing Dec 2021 not imputed.  
-- **Currency:** All revenue reported in USD (or supplied currency).  
+- **Currency:** All revenue reported in USD.  
 - **Unit-price calc:** `total_price = unit_price * quantity`.  
 - **Customer identity:** Names assumed unique; multiple accounts may bias top-customer analysis.  
 - **Geography source:** Used `item_dim.man_country` where customer country missing.  
